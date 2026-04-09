@@ -16,14 +16,6 @@
 
 ---
 
-## 🛠️ 技术栈
-
-* **前端**: Vue 3, Vite, CSS3 (Flexbox/Grid), JavaScript
-* **后端**: Python 3.x, Flask/FastAPI (建议), Scikit-learn
-* **模型**: 大语言模型 (LLM) + 传统机器学习 (Random Forest/KPCA)
-
----
-
 ## 🚀 快速开始
 
 ### 1. 克隆/下载项目
@@ -31,6 +23,7 @@
 ```bash
 git clone https://github.com/infinity0831/Industrial-QA-System.git
 cd Industrial-QA-System
+```
 
 ### 2. 前端环境配置 (ai_system 目录下)
 
@@ -40,6 +33,7 @@ cd Industrial-QA-System
 cd ai_system
 npm install
 npm run dev
+```
 
 ### 3. 后端环境配置 (根目录下)
 
@@ -47,11 +41,13 @@ npm run dev
 
 ```bash
 pip install pandas numpy scikit-learn requests flask
+```
 
 **运行后端**：
 
 ```bash
 python backend/main.py
+```
 
 ## 📂 目录结构说明
 
